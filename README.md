@@ -9,16 +9,16 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #e9ecef; /* لون خلفية أكثر رسمية */
+            background-color: #e9ecef;
         }
         header {
-            background-color: #004b87; /* لون رمزي للحكومة */
+            background-color: #004b87;
             color: white;
             padding: 20px;
             text-align: center;
         }
         header img {
-            width: 100px; /* عرض الشعار */
+            width: 100px;
             margin-bottom: 10px;
         }
         h1 {
@@ -26,7 +26,7 @@
             font-size: 24px;
         }
         .container {
-            max-width: 900px;
+            max-width: 90%; /* تغيير الحد الأقصى للعرض ليكون مناسبًا للهاتف */
             margin: 20px auto;
             background: #fff;
             padding: 20px;
@@ -47,7 +47,7 @@
             text-align: left;
         }
         th {
-            background-color: #007bff; /* لون مميز للعناوين */
+            background-color: #007bff;
             color: white;
         }
         td {
@@ -60,24 +60,29 @@
             box-sizing: border-box;
         }
         button {
-            background-color: #28a745; /* لون الزر */
+            background-color: #28a745;
             color: white;
             padding: 10px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             margin-top: 10px;
+            width: 100%; /* جعل الزر يأخذ عرض كامل */
         }
         button:hover {
-            background-color: #218838; /* لون الزر عند التمرير */
+            background-color: #218838;
         }
+        /* استجابة للهواتف */
         @media (max-width: 600px) {
             h1 {
-                font-size: 20px; /* حجم خط أصغر على الهواتف */
+                font-size: 20px;
             }
             th, td {
                 padding: 8px;
-                font-size: 14px; /* حجم خط أصغر على الهواتف */
+                font-size: 14px;
+            }
+            button {
+                font-size: 16px; /* حجم أكبر للزر على الهواتف */
             }
         }
     </style>
@@ -119,7 +124,7 @@
                     <td>الطفيلة</td>
                     <td>JWPC</td>
                     <td>117</td>
-                    <td><a href="mailto: mjallad@jordanwind.com">mjallad@jordanwind.com</a></td>
+                    <td><a href="mailto:mjallad@jordanwind.com">mjallad@jordanwind.com</a></td>
                 </tr>
                 <tr data-location="Tafileh">
                     <td>Wind energy project - Mass</td>
@@ -127,7 +132,7 @@
                     <td>الطفيلة</td>
                     <td>Mass Energy</td>
                     <td>100</td>
-                    <td><a href="mailto: khaled.abualshaikh@massgroupholding.com">khaled.abualshaikh@massgroupholding.com</a></td>
+                    <td><a href="mailto:khaled.abualshaikh@massgroupholding.com">khaled.abualshaikh@massgroupholding.com</a></td>
                 </tr>
                 <!-- Mafraq Projects -->
                 <tr data-location="Mafraq">
@@ -136,7 +141,7 @@
                     <td>المفرق</td>
                     <td>Philadelphia Solar</td>
                     <td>13</td>
-                    <td><a href="mailto: a.smadi@philadelphia-solar.com">a.smadi@philadelphia-solar.com</a></td>
+                    <td><a href="mailto:a.smadi@philadelphia-solar.com">a.smadi@philadelphia-solar.com</a></td>
                 </tr>
                 <tr data-location="Mafraq">
                     <td>Direct Proposal/ Round 1 PV/ Jordan Solar One</td>
@@ -144,7 +149,7 @@
                     <td>المفرق</td>
                     <td>Jordan Solar One</td>
                     <td>20</td>
-                    <td><a href="mailto: Projects.jordan@outlook.com">Projects.jordan@outlook.com</a></td>
+                    <td><a href="mailto:Projects.jordan@outlook.com">Projects.jordan@outlook.com</a></td>
                 </tr>
                 <!-- Maan Projects -->
                 <tr data-location="Maan">
@@ -153,7 +158,7 @@
                     <td>معان</td>
                     <td>Scatec Solar</td>
                     <td>10</td>
-                    <td><a href="mailto: iyad.assaf@scatecsolar.com">iyad.assaf@scatecsolar.com</a></td>
+                    <td><a href="mailto:iyad.assaf@scatecsolar.com">iyad.assaf@scatecsolar.com</a></td>
                 </tr>
                 <tr data-location="Maan">
                     <td>Direct Proposal/ Round 1 PV/ SunEdison Project</td>
@@ -161,7 +166,7 @@
                     <td>معان</td>
                     <td>Adwa’a Maân</td>
                     <td>20</td>
-                    <td><a href="mailto: mahmoud_alhamaideh@ctgsail.com">mahmoud_alhamaideh@ctgsail.com</a></td>
+                    <td><a href="mailto:mahmoud_alhamaideh@ctgsail.com">mahmoud_alhamaideh@ctgsail.com</a></td>
                 </tr>
                 <!-- Aqaba Projects -->
                 <tr data-location="Aqaba">
@@ -170,7 +175,7 @@
                     <td>العقبة</td>
                     <td>Shamsuna</td>
                     <td>10</td>
-                    <td><a href="mailto: Tamerk@falconmaan.com">Tamerk@falconmaan.com</a></td>
+                    <td><a href="mailto:Tamerk@falconmaan.com">Tamerk@falconmaan.com</a></td>
                 </tr>
                 <tr data-location="Aqaba">
                     <td>Al-Qweira PV Plant - Gulf Grant</td>
@@ -178,7 +183,7 @@
                     <td>العقبة</td>
                     <td>Government</td>
                     <td>92</td>
-                    <td><a href="mailto: okasasbeh@sepco.com.jo">okasasbeh@sepco.com.jo</a></td>
+                    <td><a href="mailto:okasasbeh@sepco.com.jo">okasasbeh@sepco.com.jo</a></td>
                 </tr>
                 <!-- Zarqaa Projects -->
                 <tr data-location="Zarqaa">
@@ -187,7 +192,7 @@
                     <td>الزرقاء</td>
                     <td>Government</td>
                     <td>2</td>
-                    <td><a href="mailto: smaani@sepco.com.jo">smaani@sepco.com.jo</a></td>
+                    <td><a href="mailto:smaani@sepco.com.jo">smaani@sepco.com.jo</a></td>
                 </tr>
                 <tr data-location="Zarqaa">
                     <td>Expansion of Azraq PV plant</td>
@@ -195,7 +200,7 @@
                     <td>الزرقاء</td>
                     <td>Government</td>
                     <td>5</td>
-                    <td><a href="mailto: smaani@sepco.com.jo">smaani@sepco.com.jo</a></td>
+                    <td><a href="mailto:smaani@sepco.com.jo">smaani@sepco.com.jo</a></td>
                 </tr>
                 <!-- Amman Projects -->
                 <tr data-location="Amman">
@@ -204,7 +209,7 @@
                     <td>عمان</td>
                     <td>AES/Mitsui</td>
                     <td>40</td>
-                    <td><a href="mailto: khaled.othman@aes.com">khaled.othman@aes.com</a></td>
+                    <td><a href="mailto:khaled.othman@aes.com">khaled.othman@aes.com</a></td>
                 </tr>
                 <tr data-location="Amman">
                     <td>Baynona PV project</td>
@@ -212,7 +217,7 @@
                     <td>عمان</td>
                     <td>Masdar</td>
                     <td>200</td>
-                    <td><a href="mailto: malmasri@baynouna.jo">malmasri@baynouna.jo</a></td>
+                    <td><a href="mailto:malmasri@baynouna.jo">malmasri@baynouna.jo</a></td>
                 </tr>
             </tbody>
         </table>
